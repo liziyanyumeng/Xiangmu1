@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#141931"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="我的"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="41dp"
+            android:layout_width="32dp"
+            android:layout_height="22dp"/>
+        <ImageView
+            android:src="@mipmap/xinxi"
+            android:layout_marginLeft="313dp"
+            android:layout_marginTop="41dp"
+            android:layout_width="22dp"
+            android:layout_height="17dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="31dp"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_height="90dp">
+        <ImageView
+            android:src="@mipmap/aobing"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="46dp"
+            android:layout_height="46dp"/>
+        <TextView
+            android:text="电影故事"
+            android:id="@+id/store"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="34dp"
+            android:layout_width="64dp"
+            android:layout_height="22dp"/>
+        <ImageView
+            android:src="@mipmap/shape"
+            android:layout_width="8dp"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="33dp"
+            android:layout_height="12dp"/>
+    </LinearLayout>
+
+</LinearLayout>
